@@ -1,2 +1,129 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+    <title>Portfolio</title>
+    <style>
+      h1 {
+        color: #264de4;
+        background-color: #3776ab;
+        font-size: xx-large;
+        font-weight: bolder;
+        font-style: italic;
+        text-decoration: overline;
+        text-shadow: 1px 2px 3px cadetblue;
+      }
+      p {
+        font-weight: lighter;
+        font-style: oblique;
+        text-decoration: solid;
+      }
+      h2 {
+        color: #4db33d;
+        background-color: antiquewhite;
+        font-weight: bold;
+        text-decoration: underline;
+        text-shadow: 1px 2px 3px burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="heading"><i class="fas fa-user"></i> Hi, I'm "Kalsoom Saeed"</h1>
+    <img
+      class="avatar"
+      src="./Pic.jpg"
+      alt="Kalsoom profile picture"
+      height="200"
+      width="200"
+    />
+    <p class="description">
+      <i class="fas fa-location-dot"></i> A Web Developer from Pakistan.
+    </p>
+    <br />
+
+    <h2 class="aboutme"><i class="fas fa-user"></i> About Me</h2>
+    <i class="fas fa-star"></i> I'm studying as a Web Developer @NexSkill Arfa
+    Tower.<br />
+    <i class="fas fa-laptop-code"></i> I'm currently learning:
+    <ul>
+      <li><i class="fab fa-html5" style="color: #e34c26"></i> HTML</li>
+      <li><i class="fab fa-css3-alt" style="color: #264de4"></i> CSS</li>
+      <li>
+        <i class="fab fa-js-square" style="color: #f0db4f"></i> JavaScript
+      </li>
+      <li><i class="fab fa-python" style="color: #3776ab"></i> Python</li>
+      <li>
+        <i class="fas fa-database" style="color: #4db33d"></i> SQL, different
+        computer languages.
+      </li>
+    </ul>
+    <i class="fas fa-clock"></i> In My Free Time,
+    <i class="fas fa-book-reader"></i> I focus on learning new skills.<br /><br /><br />
+
+    <i class="fab fa-github"></i>
+    <a href="https://github.com/UKS171">My github profile</a><br /><br />
+    <hr />
+    <nav class="navbar bold">
+      <i class="fas fa-home"></i>
+      <a href="./portfolue.html">Home</a>
+      <i class="fas fa-address-card"></i>
+      <a href="./aboutus.html">About Us</a>
+      <i class="fas fa-envelope"></i>
+      <a href="./contactUs.html">Contact Us</a>
+    </nav>
+    <hr />
+    <br /><video
+      src="./Norway _ Mountains.mp4"
+      height="200"
+      width="400"
+      controls
+    ></video
+    ><br /><br />
+
+    <p>
+      <i class="fas fa-quote-left"></i> Code is like humor. When you have to
+      explain it, it's not that good.<i class="fas fa-quote-right"></i>
+    </p>
+    <footer>-Cory House</footer>
+    <br /><br />
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13612.888387968791!2d74.33030295!3d31.4630761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391906a3c42292d5%3A0xd414eff2f9ffbb19!2sKot%20Lakhpat%2C%20Lahore!5e0!3m2!1sen!2s!4v1744035422187!5m2!1sen!2s"
+      width="1250"
+      height="600"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      controls
+    ></iframe>
+    <form onsubmit="portfolioFormSubmit();return false;">
+      <div>
+        <label for="email"><i class="fas fa-user"></i> Email</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label for="password"><i class="fas fa-key"></i> Password</label>
+        <input type="password" name="password" id="password" required />
+      </div>
+      <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+    </form>
+    <script>
+      function portfolioFormSubmit() {
+        console.log("I am submitted");
+      }
+    </script>
+    <div class="portfolio">
+      <img src="./portfolio icon.png" width="50" height="50" alt="" />
+    </div>
+  </body>
+</html>
